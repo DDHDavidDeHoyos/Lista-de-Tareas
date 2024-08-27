@@ -10,7 +10,7 @@ function Lista({guardado, borrarTarea}) {
         <h3 className={estilos.seg}>Descripción</h3>
       </div>
             <ul className={estilos.ul}>
-                {guardado.map((tarea, index) => {
+                {guardado && guardado.map((tarea, index) => {
                     return <Tarea borrarTarea={borrarTarea} key={index} id={index} tarea={tarea} />
                 })}
             </ul>
