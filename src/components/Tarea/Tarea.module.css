@@ -1,0 +1,66 @@
+.li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none; /* Opcional: elimina el estilo de lista predeterminado */
+    border-bottom: 1px solid #a0fff7;
+}
+
+.div1 {
+height: 100%;
+width: 15%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0%;
+margin: 0%;
+}
+
+.div2 {
+    height: 100%;
+    width: 69%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #a0fff7;
+    border-right: 1px solid #a0fff7;
+    padding: 0%;
+    margin: 0%;
+}
+
+.div3 {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 15%;
+}
+
+.h4 {
+    width: 95%;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    color: #ffffff;
+}
+
+.p {
+    width: 95%;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    margin: 0%;
+    padding: 2%;
+    font-weight: 600;
+    color: #d3fffb;
+}
+
+@media (max-width: 768px) {
+    .h4, .p {
+        font-size: 12px;
+    }
+}
